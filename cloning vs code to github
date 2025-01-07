@@ -1,0 +1,30 @@
+
+FOR CLONING REPOSITORY FROM VS CODE TO GIT HUB
+
+1. create new folder
+2.create new repository in GitHub
+3.copy the repository https link
+4. open vs code and click clone git repository in welcome page and paste the above link in the search bar after clicking clone git repository
+5.create a python or any file 
+6.open terminal in vs code
+7. commands = 1.git add first.py(filename)
+              2.git commit -m "hello"(any name)
+              3.git push origin main 
+
+
+
+
+FOR CREATING A NEW BRANCH 
+
+commands = 1. git checkout -b branch1(branch name)
+           2.create a file in vscode and push in git hub
+           3.git add first.py(filename)
+           4.git commit -m "hello"(any name)
+           5.git push origin branch1(branch name)
+
+
+
+FOR PULL A FILE FROM GITHUB
+
+1.git pull origin branch1(branch name )
+after this check the vscode
