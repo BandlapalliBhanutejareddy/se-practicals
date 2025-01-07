@@ -1,0 +1,9 @@
+git clone link
+cd filename
+git checkout -b module
+git push origin -u module
+echo "added newfile" > newfile.txt
+git add .
+git add newfile.txt
+git commit -m "added newfile.txt"
+git push origin module
